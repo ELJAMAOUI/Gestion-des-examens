@@ -1,0 +1,37 @@
+ body{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    background: linear-gradient(to bottom left, #8e3806, white);
+    margin: 0;
+  }
+ 
+ 
+ /* The side navigation menu */
+ ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+    
+    HEIGHT: 50px;
+    background-color: #1a4e61;
+    margin: 0px 0px 72px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  margin: 0px 18px;
+}
+
+ul a:hover {
+  background-color: orange;
+}
